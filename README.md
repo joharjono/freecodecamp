@@ -10,5 +10,5 @@ Responsive Web Design: This folder contains solutions for responsive web design 
 ## License
 The code in this repository is my own work and was created as part of the challenges at FreeCodeCamp. Please see the original challenges on the FreeCodeCamp website for more details.
 
-##Links
+## Links
 https://www.freecodecamp.org/
