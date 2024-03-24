@@ -1,0 +1,229 @@
+
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  html{
+    font-size: 62.5%;
+  }
+  
+  body{
+    font-family: 'Poppins', sans-serif;
+    color: #1a1a1a;
+    scroll-behavior: smooth;
+  }
+  .header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    gap: 50rem;
+  }
+  .logo img{
+    width: 400px;
+  }
+  .navbar ul li>a{
+    color: inherit;
+    text-decoration: none;
+  }
+  .navbar ul{
+    display: flex;
+    font-size: 1.6rem;
+    gap: 3rem;
+  }
+  main{
+    width: 75%;
+    margin: 15rem auto;
+  }
+  h1{
+    text-align: center;
+    font-size: 2rem;
+  }
+  .hero form input, label{
+   display: block;
+   margin: 20px auto;
+  }
+  form [type="email"]{
+    width: 300px;
+    padding: 5px;
+  }
+  form [type="submit"]{
+    color: #1a1a1a;
+    background-color: #f1c40f;
+    padding: 5px 25px;
+    font-size: 2rem;
+    font-weight: 500;
+    border: none;
+  }
+  .features{
+    align-items: center;
+    width: 100%;
+    padding: 40px;
+  }
+  .premium_materialsgrid{
+    padding: 27px 40px;
+  }
+  .description h2{
+    font-size: 2rem;
+  }
+  .description p{
+    font-size: 1.5rem;
+  }
+  .premium_materialsgrid{
+    display: flex;
+  }
+  .premium_materialsgrid span{
+    color: #e68a00;
+    margin-right: 3rem;
+    font-size: 5rem;
+    font-weight: 600;
+  }
+  
+  .howitwork{
+    margin: 40px;
+    text-align: center;
+  }
+  
+  .pricing {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .product{
+    width: 313px;
+    height:311px;
+    border: 1px solid black;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  .product h3{
+    font-size: 1.5rem;
+    background-color:#d9d9d9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+  }
+  .product p{
+    margin-top: 10px;
+  }
+  .product p>span{
+    font-size: 2rem;
+    color: #000;
+    font-weight: 600;
+  }
+  .product ul li{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 3.5rem;
+  }
+  .product ul{
+    padding: 10px 0;
+  }
+  .btn{
+    background-color: #f1c40f;
+    border: none;
+    padding: 10px 30px;
+    cursor: pointer;
+  }
+  
+  .footer{
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+    background-color: #ddd;
+    height: 100px;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+  }
+  .footer ul{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+  }
+  .footer ul li{
+    list-style-type: none;
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  a{
+    color: inherit;
+    text-decoration: none;
+  }
+  .footer span{
+    font-size: 1.3rem;
+  }
+  .footer ul, span{
+    margin-right: 20px;
+    line-height: 3rem;
+  }
+   @media (max-width: 950px){
+    .header{
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 100px;
+      top: 0;
+      background-color: #fff;
+      gap: 0;
+    }
+  }
+  @media (max-width: 769px){
+    .header{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      height: 100px;
+      top: 0;
+      background-color: #fff;
+      gap: 0;
+    }
+    .logo img{
+      transform: scale(0.7, 1);
+    }
+    
+    .premium_materialsgrid{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    main{
+      width: 95%;
+      margin: 3rem auto;
+    }
+    .footer{
+      width: 95%;
+    }
+    .pricing {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+  
+    form [type="email"]{
+      width: 200px;
+      padding: 5px;
+    }
+  
+  }
+  @media (max-width: 480px){
+  
+    iframe{
+      width: auto;
+      height: auto;
+    }
+  }
